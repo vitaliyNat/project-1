@@ -1,0 +1,76 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+nav {
+    display: flex;
+    background-color: rgb(255,255,255,0.5);
+    justify-content:space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+nav button {
+    color:black;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgb(255,255,255,0.5);
+}
+footer {
+    position: fixed;
+    bottom:0;
+    background-color: rgb(255,255,255,0.5);
+    justify-content:center;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+button{
+    border: 0px;
+}
+body{
+    background-image: url(./bgi.png);
+    background-attachment: fixed;
+}
+button:hover{
+    background-color: #fff;
+}
+main{
+    width: 100%;
+    display: flex;
+}
+.inputForPost{
+    height: 150px;
+}
+
+
+.HowItSee, .posts{
+    background-color: rgb(255,255,255,0.5);
+    text-align: center;
+    
+    padding: 5%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin:15px;
+}
+.posts{
+    width: 80%;
+    border:2px solid teal;
+    margin:15px;
+}
+form{
+    border: 2px solid teal;
+    width: 20%;
+    height: fit-content;
+    text-align: center;
+    line-height: 2;
+    padding: 25px;
+    background-color: rgb(255,255,255,0.5);
+}
+.main {
+    width:80%;
+    padding: 10px;
+    margin: 10px;
+}
